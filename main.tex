@@ -1,0 +1,269 @@
+%-------------------------
+% Resume in Latex
+% Template Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+% ensure PDF output will be all-Unicode and machine-readable
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Vivaan Bhandary} \\ \vspace{1pt}
+    \small 778-875-0090 $|$ \href{mailto:vivaanbhandary@gmail.com}{\underline{vivaanbhandary@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/vivaan-bhandary-389726241/}{\underline{linkedin}} $|$
+    \href{https://github.com/vivaanbhandary}{\underline{github}} $|$
+    \href{https://vivaanbhandary.github.io/portfolio/}{\underline{portfolio}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of British Columbia}{Vancouver, BC}
+      {Bachelor of Science in Computer Science}{Sep. 2021 -- May 2026}
+      \resumeItem{GPA: 4.33, 
+      Dean's Honour List: 2022, 2023, 2024. Dean's Scholar 2026, Graduated with Distinction}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Junior Quality Assurance Engineer Co-op}{Sept 2024 -- Apr 2025}
+      {Trulioo}{Vancouver, BC}
+      \resumeItemListStart
+        \resumeItem{Progressed to Risk Team's \textbf{solo QA \& QA Lead} within four months, managing end-to-end testing, deployments, and regression for critical risk monitoring systems}
+        \resumeItem{\textbf{Optimized automated API test suites} for daily CI/CD pipelines, accelerating execution times by \textbf{4.5x}}
+        \resumeItem{\textbf{Engineered comprehensive Postman collections} for \textbf{REST APIs} using dynamic variables and external data integrations to scale automated testing}
+        \resumeItem{Developed and maintained mock API sandboxes to simulate third-party data sources and machine learning responses, enabling the dynamic testing of complex failure combinations and edge cases}
+        \resumeItem{Led QA delivery for a high-priority data validation feature designed to intercept and quarantine false-positive data, managing test plans to ensure a zero-defect release under tight sprint deadlines}
+        \resumeItem{Coordinated cross-functional testing strategies during a company-wide API standardization initiative, synchronizing automated test coverage across multiple distributed teams to ensure seamless integration}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Artificial Intelligence Internship}{July 2024 -- Aug 2024}
+      {Safe Security}{Mumbai, India}
+      \resumeItemListStart
+        \resumeItem{Researched Retrieval-Augmented Generation (RAG) frameworks to optimize LLMs for accurate data retrieval}
+        \resumeItem{Deployed a custom LLaMA architecture with RAG context to significantly improve context-aware AI responses}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {Internship}{June. 2023 -- Aug 2023}
+      {Infectious Advertising}{Mumbai, India}
+
+      \resumeItemListStart
+        \resumeItem{Overhauled the internal Job List Manager by transitioning it from a shared Google Doc to Excel, incorporating automation to generate daily work tasks and charts by analyzing employee data}
+
+        \resumeItem{Enhanced user-friendliness by adding combo boxes and data validation to the new system to facilitate a smooth transition for employees while also being easy to adopt}
+
+        \resumeItem{Actively engaged in brainstorming sessions for the development of promotional ideas and writing copy for advertising materials for various clients}
+
+        \resumeItem{Edited and updated website content for a client to convey its information with more clarity and broader appeal using trendier terminology}
+
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\textbf{Reloaded Dice - Video Game and Engine} $|$ \emph{C++, Git, EnTT, Godot}}{Jan 2026 -- Apr 2026}
+        \resumeItemListStart
+            \resumeItem{Directed a 6-person Agile team through 2-week sprints, integrating playtest feedback to refine core gameplay loops}
+            \resumeItem{Architected a C++ game engine using the EnTT ECS framework for highly performant and scalable game logic}
+            \resumeItem{Optimized core engine processes with the team by implementing spatial hashing and collision layers for efficient physics calculations, and resolved a major rendering bottleneck to reduce GPU overhead}
+            \resumeItem{Designed and programmed a dynamic, synergistic upgrade system, managing complex entity interactions and state changes to scale gameplay mechanics}
+            \resumeItem{Composed and integrated a dynamic music and sound system for the game, increasing player feedback for important actions and telegraphing gameplay elements}
+            
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+          {\textbf{Graphics and Animation Projects} $|$ \emph{JavaScript, GLSL, Python, speech\_recognition}}{Sept 2025 -- Apr 2026}
+          \resumeItemListStart
+            \resumeItem{Developed an interactive 3D graphics engine utilizing WebGL and custom GLSL shaders to render real-time environments}
+            \resumeItem{Implemented multi-pass rendering for dynamic shadows and a multi-camera system to simulate movable, real-time portal effect}
+            \resumeItem{Engineered an audio-driven facial animation system that uses state interpolation to smoothly transition between expressions based on real-time voice commands}
+            \resumeItem{Developed a custom animation pipeline that supports keyframe saving and applies inverse kinematics (IK) interpolation to compute fluid, dynamic motion}
+            \resumeItem{Wrote a physics-based cloth simulation engine featuring interactive collision detection, particle external forces, and custom cloth-tearing logic}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Campus Information Query Engine} $|$ \emph{TypeScript, Git, React, REST APIs}}{Sept 2023 -- Dec 2023}
+          \resumeItemListStart
+            \resumeItem{Led Agile development of a TypeScript application, managing iterative sprints and weekly scrum meetings}
+            \resumeItem{Parsed JSON and HTML campus data to create datasets for complex search and query operations}
+            \resumeItem{Built secure RESTful API endpoints connecting the backend server with a React frontend}
+            \resumeItem{Built a robust testing suite utilizing black-box, white-box, mutation, and unit testing}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Data Analysis \& Machine Learning Projects}}{Sept 2021 - Apr 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a K-Nearest Neighbors (KNN) regression model in R ($R^2$ = 0.9) to analyze and predict tennis player prize money based on ranking data}
+            \resumeItem{Conducted hypothesis testing \& generated bootstrap distributions using R to analyze regional demographics}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Zone Chasing Game} $|$ \emph{Java, Git, Java Swing}}{Jan 2022 - Apr 2022}
+          \resumeItemListStart
+            \resumeItem{Developed an object-oriented Java game utilizing the Swing library, featuring a dynamic GUI with custom gameplay animations}
+            \resumeItem{Implemented JSON-based data persistence for save/load functionality and engineered a custom console logger to track object state changes}
+            \resumeItem{Designed a comprehensive testing suite to streamline debugging processes and minimize gameplay defects}
+          \resumeItemListEnd
+
+          \resumeProjectHeading
+          {\textbf{Generative Math Quizzer}$|$ \emph{Java, MySQL}}{Jan 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a Java application to dynamically generate and evaluate math assessments, utilizing flowchart prototyping to integrate iterative client feedback}
+            \resumeItem{Architected a secure, password-protected RDBMS backend using MySQL to efficiently manage and store student test data}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, JavaScript, TypeScript, C/C++, HTML, R, SQL, Erlang, PHP, Kotlin, GLSL} \\
+     \textbf{Frameworks \& Libraries}{: React, Node.js, scikit-learn, Pandas, NumPy, Matplotlib, three.js, EnTT, NVIDIA warp} \\
+     \textbf{Software \& Tools}{: Git, GitHub, Unity, Godot, Adobe Premiere Pro, VS Code, Visual Studio, PyCharm} \\
+     \textbf{Data Analysis \& Visualization}{: Data Mining, Machine Learning, Data Visualization} \\
+     \textbf{Relevant Coursework}{: Video Game Programming, Computer Graphics \& Animation, Machine Learning \& Data Mining, Parallel Computation, Computer Networking, Computer Hardware \& Operating Systems, Software Engineering \& Construction, Algorithms and Data Structures, Data Science}
+    }}
+ \end{itemize}
+
+\section{Additional Certificates \& Awards}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{1\textsuperscript{st} Place at Trulioo’s Fakeathon} $|$ \emph{Company-wide Deepfake Detection}}{Apr 2025}
+    \resumeProjectHeading
+      {\textbf{Wildest Idea Prize} $|$ \emph{UBC Learning Analytics Hackathon}}{Oct 2024}
+    \resumeProjectHeading
+      {\textbf{1\textsuperscript{st} Place Prize} $|$ \emph{UBC Game Design Competition}}{Apr 2024}
+    \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
