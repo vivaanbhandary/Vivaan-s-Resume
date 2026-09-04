@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.3)  3 SEP 2026 23:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.3)  4 SEP 2026 14:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Vivaan/OneDrive/Desktop/UBC Academic PC/Vivaan_s_Resume/main.tex"
-(c:/Users/Vivaan/OneDrive/Desktop/UBC Academic PC/Vivaan_s_Resume/main.tex
+**"c:/Users/Vivaan/OneDrive/Desktop/UBC Academic PC/Job Stuff/Vivaans_Resume/main.tex"
+(c:/Users/Vivaan/OneDrive/Desktop/UBC Academic PC/Job Stuff/Vivaans_Resume/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\Vivaan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -291,19 +291,19 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 118.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 119.
+(Font)              <10.95> on input line 119.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 119.
+(Font)              <8> on input line 119.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 119.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 119.
 (C:\Users\Vivaan\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 131.
+(Font)              <7> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 131.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 131.
+(Font)              <5> on input line 120.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -328,18 +328,18 @@ L3 programming layer <2025-12-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 22A9C798C3B4809C36B0C257C7505E1C;605.
+(rerunfilecheck)             Checksum: 9990FFFD53FFE92042D45ED8008FAF95;605.
  ) 
 Here is how much of TeX's memory you used:
  10884 strings out of 467871
- 173560 string characters out of 5417893
+ 173641 string characters out of 5417893
  628847 words of memory out of 5000000
  39638 multiletter control sequences out of 15000+600000
  633623 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,397b,715s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,406b,652s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Vivaan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (2 pages, 145785 bytes).
+Output written on main.pdf (2 pages, 144709 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
