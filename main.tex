@@ -123,6 +123,7 @@
 \end{center}
 
 
+\newcommand{\education}{
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
@@ -132,8 +133,9 @@
       \resumeItem{GPA: 4.33, 
       Dean's Honour List: 2022, 2023, 2024. Dean's Scholar 2026, Graduated with Distinction}
   \resumeSubHeadingListEnd
+}
 
-
+\newcommand{\experience}{
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
@@ -184,8 +186,9 @@
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
+}
 
-
+\newcommand{\projects}{
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
@@ -203,11 +206,11 @@
     \resumeProjectHeading
           {\textbf{Graphics and Animation Projects} $|$ \emph{JavaScript, GLSL, Python, speech\_recognition}}{Sept 2025 -- Apr 2026}
           \resumeItemListStart
-            \resumeItem{Developed an interactive 3D graphics engine utilizing WebGL and custom GLSL shaders to render real-time environments}
-            \resumeItem{Implemented multi-pass rendering for dynamic shadows and a multi-camera system to simulate movable, real-time portal effect}
-            \resumeItem{Engineered an audio-driven facial animation system that uses state interpolation to smoothly transition between expressions based on real-time voice commands}
-            \resumeItem{Developed a custom animation pipeline that supports keyframe saving and applies inverse kinematics (IK) interpolation to compute fluid, dynamic motion}
-            \resumeItem{Wrote a physics-based cloth simulation engine featuring interactive collision detection, particle external forces, and custom cloth-tearing logic}
+            \resumeItem{Developed interactive 3D graphics engines with WebGL \& custom GLSL shaders to render real-time environments}
+            \resumeItem{Implemented multi-pass rendering for dynamic shadows and a multi-camera system to simulate real-time portals}
+            \resumeItem{Engineered a voice-controlled facial animation system using state interpolation for smooth expression transitions}
+            \resumeItem{Developed a custom animation pipeline with keyframe saving and inverse kinematics (IK) for fluid motion}
+            \resumeItem{Wrote a physics-based cloth simulation engine with interactive collisions, particle forces, and custom tearing logic}
           \resumeItemListEnd
           
       \resumeProjectHeading
@@ -241,8 +244,9 @@
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
+}
 
-
+\newcommand{\skills}{
 %
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
@@ -255,7 +259,8 @@
      \textbf{Relevant Coursework}{: Video Game Programming, Computer Graphics \& Animation, Machine Learning \& Data Mining, Parallel Computation, Computer Networking, Computer Hardware \& Operating Systems, Software Engineering \& Construction, Algorithms and Data Structures, Data Science}
     }}
  \end{itemize}
-
+}
+\newcommand{\awards}{
 \section{Additional Certificates \& Awards}
   \resumeSubHeadingListStart
     \resumeProjectHeading
@@ -266,4 +271,11 @@
       {\textbf{1\textsuperscript{st} Place Prize} $|$ \emph{UBC Game Design Competition}}{Apr 2024}
     \resumeSubHeadingListEnd
 %-------------------------------------------
+}
+
+\education
+\experience
+\projects
+\skills
+\awards
 \end{document}
